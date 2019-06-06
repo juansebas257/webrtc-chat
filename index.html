@@ -1,0 +1,29 @@
+<html>
+
+<head>
+  <title>Chat WebRTC Test</title>
+  <meta charset="UTF-8">
+  <script type='text/javascript' src='https://cdn.scaledrone.com/scaledrone.min.js'></script>
+</head>
+
+<body>
+  <div class="content">
+    <div class="messages"></div>
+    <form class="footer" onsubmit="return false;">
+      <input type="text" placeholder="Your message..">
+      <button type="submit">Send</button>
+    </form>
+  </div>
+
+  <script type='text/javascript' src='app.js'></script>
+
+  <template data-template="message">
+    <div class="message">
+      <div class="message__name"></div>
+      <div class="message__bubble"></div>
+    </div>
+  </template>
+
+</body>
+
+</html>
